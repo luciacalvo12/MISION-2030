@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Misión 2030</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #fff3bc, #ffb65c);
+      text-align: center;
+      padding: 40px 15px;
+      color: #603b10;
+    }
+    h1 {
+      color: #d8780c;
+      font-size: 45px;
+    }
+    .panel {
+      background: white;
+      max-width: 700px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px #a9653040;
+    }
+    .equipo {
+      background: #fff0c4;
+      padding: 15px;
+      margin: 12px;
+      border-radius: 15px;
+    }
+    button {
+      background: orange;
+      border: none;
+      padding: 16px 25px;
+      border-radius: 15px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <h1>🤖 MISIÓN 2030</h1>
+    <h2>¡El deporte del futuro empieza aquí!</h2>
+
+    <p>3 equipos · 7 retos · Inteligencia artificial</p>
+
+    <div class="equipo">🏛️ EQUIPO 1: CONCELLO 2030</div>
+    <div class="equipo">🏋️ EQUIPO 2: GYM 2030</div>
+    <div class="equipo">🏅 EQUIPO 3: ESCUELA 2030</div>
+
+    <button onclick="iniciar()">🚀 COMENZAR MISIÓN</button>
+
+    <h3 id="resultado"></h3>
+  </div>
+
+  <script>
+    function iniciar() {
+      document.getElementById("resultado").textContent =
+        "🔓 NIVEL 1 DESBLOQUEADO";
+    }
+  </script>
+</body>
+</html>
